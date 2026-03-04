@@ -28,7 +28,7 @@ An end-to-end Business Intelligence project transforming 1,010 raw retail record
 - **Market Shift:** Reallocate logistics resources to high-performing Western hubs.
 
 ## 📂 Repository Contents
-- `GlobalMart_Sales_Data`: Cleaned dataset.
+- `GlobalMart_Sales_Data`: Raw dataset.
 - `GlobalMart_Sales_Analysis.pbix`: Interactive Power BI file.
 - `Executive_Business_Intelligence_Report_GlobalMart.pdf`: Full CRISP-DM methodology and insights.
 
