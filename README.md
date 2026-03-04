@@ -1,21 +1,36 @@
-# GlobalMart Strategic Sales Analysis (2022-2024)
+# GlobalMart Strategic Sales Analysis (2022-2024) 📊
 
-## Project Overview
-This project applies the **CRISP-DM framework** to analyze $1.08M in retail sales data. The goal was to identify growth drivers and profitability risks for GlobalMart executive leadership.
+An end-to-end Business Intelligence project transforming 1,010 raw retail records into actionable executive strategy using the **CRISP-DM framework**.
 
-## Key Technical Features
-- **ETL Process:** Cleaned 1,010 raw records in **Power Query**, resulting in 940 validated records.
-- **Data Modeling:** Implemented a **Star Schema** with a dedicated Date Dimension.
-- **DAX Measures:** Authored calculations for YoY Growth, Profit Margin (30.23%), and Average Order Value ($1.15K).
-- **Visualization:** 5-page interactive dashboard including Trend Analysis, Regional Performance, and Customer Profitability scatter plots.
+## 🚀 Project Highlights
+- **Validated Dataset:** 940 high-integrity records (post-ETL).
+- **Key Metrics:** $1.08M Total Sales | 30.23% Profit Margin | 26.69% YoY Growth.
+- **Data Architecture:** Star Schema modeling for optimized DAX performance.
 
-## Strategic Insights
-1. **Seasonal Peak:** December accounts for nearly 50% of annual revenue ($0.54M).
-2. **Profit Protection:** Identified "Profit Drains" in bulk orders; recommended a 10% Profit Floor.
-3. **Growth Engine:** Technology sector showed a 97.92% YoY growth rate.
+## 🛠 Technical Workflow
+### 1. Data Preparation (Power Query)
+- Standardized regional naming conventions (e.g., "WEST " to "West").
+- Handled null values in critical fields (Order Date, Sales).
+- Enforced strict data typing for financial accuracy.
 
-## Tools Used
-- Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Excel
+### 2. Data Modeling
+- Developed a **Star Schema** to enable Time-Intelligence functions.
+- Authored DAX measures for **Year-over-Year (YoY) Growth** and **Average Order Value (AOV)**.
+
+### 3. Visualization & Analysis
+- **Executive Summary:** High-level KPI tracking.
+- **Regional Performance:** Identifying high-ROI territories (West Region).
+- **Profitability Analysis:** Scatter plots identifying "Profit Drains" in bulk orders.
+
+## 💡 Strategic Recommendations
+- **Discount Governance:** Implement a 10% Profit Floor on bulk transactions.
+- **Inventory Focus:** Capitalize on the 97.92% growth in the Technology sector.
+- **Market Shift:** Reallocate logistics resources to high-performing Western hubs.
+
+## 📂 Repository Contents
+- `GlobalMart_Sales_Data`: Cleaned dataset.
+- `GlobalMart_Sales_Analysis.pbix`: Interactive Power BI file.
+- `Executive_Business_Intelligence_Report_GlobalMart.pdf`: Full CRISP-DM methodology and insights.
+
+---
+**Author:** Anne Mutua | Data Analyst
